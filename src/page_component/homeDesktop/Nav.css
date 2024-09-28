@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #0c0c0d; 
+    /* Dark background */
+    
+}
+.navbar-brand img {
+    width: 40px;
+}
+.nav-link {
+    color: #fff !important;
+    margin-left: 15px;
+}
+.nav-link:hover {
+    color: #aaa !important;
+}
+.btn-get-started {
+    background: linear-gradient(90deg, #6e00f5, #3b78f7);
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+.btn-get-started:hover {
+    background: linear-gradient(90deg, #5c00c4, #2e60cf);
+}

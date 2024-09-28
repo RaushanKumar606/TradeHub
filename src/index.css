@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-text-align: center;
+
   min-width: 320px;
   
 }
@@ -25,4 +25,486 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
 }
+  /* Navbar */
+.nav-link{
+  margin-left: 30px;
+}
 
+
+/* Default styles */
+.btn_custom {
+  width: 12%;
+  height: 5%;
+  margin: 0 auto;
+}
+
+/* Media query for screens smaller than 768px (tablets and smaller devices) */
+@media screen and (max-width: 768px) {
+  .btn_custom {
+    width: 50%;
+  }
+}
+
+/* Media query for screens smaller than 480px (mobile devices) */
+@media screen and (max-width: 480px) {
+  .btn_custom {
+    width: 100%;
+    font-size: 16px; /* Adjust font size */
+    padding: 12px; /* Adjust padding */
+  }
+}
+
+
+/* in used to about  component */
+.team-section {
+  display: flex;
+  flex-direction: row;
+}
+
+.team-image {
+  border-radius: 60%;
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+/* Media query for screens smaller than 768px (tablets and phones) */
+@media screen and (max-width: 768px) {
+  .team-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .team-image {
+    width: 80%; /* Increase the image size on smaller screens */
+    height: auto;
+  }
+
+  .col-12 {
+    margin-top: 20px;
+  }
+}
+
+/* Media query for screens smaller than 480px (mobile) */
+@media screen and (max-width: 480px) {
+  .team-section {
+    padding: 20px 0;
+  }
+  .team-image {
+    width: 100%;
+    height: auto;
+  }
+  .text-muted p {
+    font-size: 1em;
+  }
+}
+
+/* Product universe in used  */
+.imageUniverse {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+/* Media query for tablets (768px and below) */
+@media screen and (max-width: 768px) {
+  .imageUniverse {
+    width: 70%;
+  }
+  .col-12 {
+    margin-top: 20px;
+  }
+  .btn_custom {
+    width: 50%;
+  }
+}
+
+/* Media query for mobile (480px and below) */
+@media screen and (max-width: 480px) {
+  .imageUniverse {
+    width: 80%;
+  }
+  .btn_custom {
+    width: 80%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+/* General styling  LEFTSECTION PRODUCT  */
+.left-section img {
+  max-width: 100%;
+  height: auto;
+}
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  .left-section {
+    text-align: center;
+  }
+  .left-section h1 {
+    font-size: 1.5rem;
+  }
+  .left-section p {
+    font-size: 1rem;
+  }
+  .left-section .ml-5 {
+    margin-left: 20px;
+  }
+  .btn {
+    display: block;
+    margin: 10px auto;
+  }
+}
+/* Smaller mobile screens */
+@media screen and (max-width: 480px) {
+  .left-section {
+    padding: 15px;
+  }
+  .left-section img {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .left-section .ml-5 {
+    margin-left: 10px;
+  }
+  .left-section h1 {
+    font-size: 1.3rem;
+  }
+  .left-section p {
+    font-size: 0.9rem;
+  }
+  .left-section .btn {
+    font-size: 0.9rem;
+  }
+}
+
+/* RIGHTSECTION IN PRODUCT  */
+/* General styling */
+.right-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  .right-section {
+    text-align: center;
+  }
+  .right-section h1 {
+    font-size: 1.5rem;
+  }
+  .right-section p {
+    font-size: 1rem;
+  }
+  .right-section img {
+    margin-top: 20px;
+  }
+  .right-section a {
+    display: block;
+    margin-top: 20px;
+    font-size: 1rem;
+  }
+}
+/* Smaller mobile screens */
+@media screen and (max-width: 480px) {
+  .right-section h1 {
+    font-size: 1.3rem;
+  }
+  .right-section p {
+    font-size: 0.9rem;
+  }
+  .right-section img {
+    max-width: 80%;
+    margin: 20px auto;
+  }
+  .right-section a {
+    font-size: 0.9rem;
+  }
+}
+
+/* PRICING  */
+/* General styling */
+.brokerage-section {
+  text-align: center;
+}
+.brokerage-section ul {
+  padding-left: 0;
+}
+.brokerage-section ul li {
+  list-style: none;
+  padding-left: 15px;
+}
+
+/* Mobile view */
+@media screen and (max-width: 768px) {
+  .brokerage-section {
+    text-align: center;
+  }
+  .brokerage-section h3 {
+    font-size: 1.2rem;
+  }
+  .brokerage-section ul {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .brokerage-section ul li {
+    text-align: left;
+    padding-left: 0;
+  }
+  .brokerage-section .col-md-8, .brokerage-section .col-md-4 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+/* Smaller mobile screens */
+@media screen and (max-width: 480px) {
+  .brokerage-section ul {
+    font-size: 0.8rem;
+  }
+  .brokerage-section ul li {
+    line-height: 2;
+  }
+  .brokerage-section h3 {
+    font-size: 1rem;
+  }
+}
+
+/* PRODUCT HERO SECTION */
+
+/* General styles */
+.pricing-section img {
+  width: 100px; /* Adjust size as per requirement */
+}
+
+.pricing-section p {
+  font-size: 16px;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  .pricing-section {
+    text-align: center;
+  }
+
+  .pricing-section img {
+    width: 80px; /* Reduce image size on smaller screens */
+  }
+
+  .pricing-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .pricing-section p {
+    font-size: 0.9rem;
+  }
+
+  .pricing-section .col-md-4 {
+    margin-bottom: 20px; /* Add space between stacked columns */
+  }
+}
+
+/* Smaller mobile screens */
+@media screen and (max-width: 480px) {
+  .pricing-section h1 {
+    font-size: 1.3rem;
+  }
+
+  .pricing-section p {
+    font-size: 0.85rem;
+  }
+}
+
+/* SUPPORT MEDIA QUERY USED  */
+
+/* Default styles */
+.container {
+  padding: 0 15px;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column; /* Stack columns vertically on mobile */
+  }
+
+  .col-4 {
+    width: 100%; /* Make each column full width on mobile */
+    padding: 10px 0; /* Adjust padding for mobile */
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .col-4 {
+    width: 50%; /* Two columns on tablet devices */
+    padding: 20px; /* Adjust padding for tablet */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  .col-4 {
+    width: 33.33%; /* Three columns on desktop devices */
+    padding: 20px; /* Adjust padding for desktop */
+  }
+}
+
+/* SUPORT HERO  */
+
+/* Default styles */
+.container-fluid {
+  padding: 0;
+}
+
+#supportHero {
+  background-color: #f8f9fa; /* Example background color */
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  #supportWrapper {
+    text-align: center; /* Center text on mobile */
+    padding: 20px; /* Adjust padding */
+  }
+
+  .row {
+    flex-direction: column; /* Stack columns vertically on mobile */
+  }
+
+  .col-6 {
+    width: 100%; 
+    padding: 15px; /* Adjust padding for mobile */
+  }
+
+  input {
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 15px; 
+  }
+
+  a {
+    display: block; 
+    margin: 5px 0; 
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .col-6 {
+    width: 50%; /* Two columns on tablet */
+    padding: 20px; /* Adjust padding for tablet */
+  }
+
+  input {
+    width: 100%; /* Full width for input */
+    padding: 10px; /* Padding for input */
+    margin-bottom: 15px; /* Space below input */
+  }
+
+  a {
+    display: inline-block; /* Links in-line on tablet */
+    margin-right: 10px; /* Space between links */
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+  .col-6 {
+    width: 50%; /* Two columns on desktop */
+    padding: 30px; /* Adjust padding for desktop */
+  }
+
+  input {
+    width: 70%; /* Width of the input field on desktop */
+    padding: 15px; /* Padding for input */
+  }
+
+  a {
+    display: inline-block; /* Links in-line on desktop */
+    margin-right: 20px; /* Space between links */
+  }
+}
+
+
+
+
+
+
+
+
+
+.col a{
+  text-decoration: none;
+   color: #676767;
+
+}
+.link-item {
+  margin-bottom: 10px; /* Add space below each link */
+}
+
+/* company polices */
+.inline-item {
+  margin-right: 15px;  /* Small horizontal space */
+  margin-bottom: 5px;  /* Small vertical space if they wrap */
+}
+
+/* SUPPORT */
+
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 20px 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+
+/* UNIVERSE */
+.imageUniverse img{
+  width: 40%;
+}
+
+/* GET FERR button */
+
+.gradient-btn {
+  background: linear-gradient(90deg, #4fc3f7, #7b1fa2);
+  border: none;
+  width: 20%;
+  height: 55%;
+  margin: 0 auto;
+  border-radius: 25px;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gradient-btn:hover {
+  opacity: 0.9;
+  color: white;
+}
+
+/* support hero  */
+.track{
+  margin: 0.8rem;
+  text-decoration: none;
+}
