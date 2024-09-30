@@ -1,15 +1,15 @@
 function Footer() {
   return (
-    <footer style={{ backgroundColor: "rgb(250, 250, 250)" }}>
+    <footer style={{ backgroundColor: "black" ,color:"white"}}>
       <div className="container border-top mt-5">
-        <div className="row mt-5">
-          <div className="col">
-            <img src="Images/logo.svg" style={{ width: "50%" }} />
+        <div className="row mt-5 ">
+          <div className="col treanding">
+            <img src="Images/treanding.png" style={{ width: "50%" }} />
             <p>
-              &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
+              &copy; 2010 - 2024, Not TreadingView Pro Broking Ltd. All rights reserved.
             </p>
           </div>
-          <div className="col">
+          <div className="col   ">
             <p>Company</p>
             <a href="#" className="d-block mb-3">
               About
@@ -27,13 +27,13 @@ function Footer() {
               Careers
             </a>
             <a href="#" className="d-block mb-3">
-              Zerodha.tech
+            TreadingView Pro.tech
             </a>
             <a href="#" className="d-block mb-3">
               Press & media
             </a>
             <a href="#" className="d-block mb-3">
-              Zerodha cares (CSR)
+            TreadingView Pro (CSR)
             </a>
             <br />
           </div>
@@ -46,7 +46,7 @@ function Footer() {
               Support portal
             </a>
             <a href="#" className="d-block mb-3">
-              Z-Connect blog
+              TView-Connect blog
             </a>
             <a href="#" className="d-block mb-3">
               List of charges
@@ -70,9 +70,9 @@ function Footer() {
             <br />
           </div>
         </div>
-        <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
+        <div className="mt-5 text-muted paragrapg" style={{ fontSize: "14px",color:'white' }}>
           <p>
-            Zerodha Broking Ltd.: Member of NSE BSE - SEBI Registration no.:
+            TreadingView Pro Broking Ltd: Member of NSE BSE - SEBI Registration no.:
             INZ000031633 CDSL: Depository services through Zerodha Securities
             Pvt. Ltd. SEBI Registration no.: IN-DP-100-2015 Commodity Trading
             through Zerodha Commodities Pvt. Ltd. MCX: 46025 SEBI Registration

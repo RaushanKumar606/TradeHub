@@ -6,12 +6,11 @@ function Navbar() {
       style={{ backgroundColor: "black"  ,position: "fixed",top: '0', width:"100%"}}
     >
       <div className="container p-2">
-        <a className="navbar-brand" href="Trading">
+        <a className="navbar-brand treanding-image" style={{width: "60%", }} href="Trading">
           <img
-            src="Images/logo.svg"
-            style={{ width: "25%" }}
+            src="Images/treanding.png"
             alt="Logo"
-          />
+          style={{width:"7%", borderRadius: "50%" }} />
         </a>
         <button
           className="navbar-toggler"

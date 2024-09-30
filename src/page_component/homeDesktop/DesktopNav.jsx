@@ -4,8 +4,8 @@ const DesktopNav = () => {
       <nav className="navbar navbar-expand-lg fixed-top">
         <div className="container">
           {/* Brand */}
-          <a className="navbar-brand" href="#">
-            <img src="https://placeholder.pics/svg/40x40" alt="Brand Logo" />
+          <a className="navbar-brand treanding" href="#">
+            <img src="Images/treanding.png" alt="Brand Logo"  />
           </a>
   
           {/* Toggler/collapsible Button */}
@@ -17,10 +17,10 @@ const DesktopNav = () => {
           <div className="collapse navbar-collapse" id="navbarContent">
             <ul className="navbar-nav mx-auto">
               <li className="nav-item">
-                <a className="nav-link" href="#">Products</a>
+                <a className="nav-link" href="product">Products</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Community</a>
+                <a className="nav-link" href="support">Community</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Markets</a>

@@ -25,6 +25,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="*" element={<NotFund/>}/> 
       <Route path="Trading" element={<DesktopPage />} />
       
+      
     </Routes>
   </BrowserRouter>
 );
